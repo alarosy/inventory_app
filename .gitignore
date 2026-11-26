@@ -1,0 +1,4 @@
+# الصور المرفوعة لا تُحفظ في المستودع، مع إبقاء المجلد وملف الحماية
+uploads/products/*
+!uploads/products/.gitkeep
+!uploads/products/.htaccess

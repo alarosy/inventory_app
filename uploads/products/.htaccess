@@ -1,0 +1,10 @@
+# هذا المجلد للصور فقط: نمنع تنفيذ أي سكربت فيه ونمنع عرض محتوياته
+Options -Indexes
+
+<FilesMatch "\.(php|php\d|phtml|phar|pl|py|cgi|sh)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
